@@ -1,0 +1,26 @@
+@media (min-width: 768px) {
+    .row2 {
+        min-height: 414px;
+        position: relative;
+    }
+    .row2 .col-l {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .row2 .col-r {
+        position: absolute;
+        right: 0;
+    }
+    .row .text-al{
+        text-align: right;
+    }
+}
+@media (max-width: 767px) { 
+    .row .text-al{
+        text-align: center;
+    }
+    .row2 .col-l{
+        text-align: center;
+    }
+ }
